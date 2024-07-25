@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    margin: 0 auto;
+    padding: 20px;
+    min-width:600px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9fAf8;
+    padding: 10px;
+    border: red 2px solid;
+}
+
+.header-logo h3{
+    margin: 0;
+    font-size: 24px;
+    border: red 2px solid;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    border: red 2px solid;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    color:#e5e7eb;
+    margin-left:20px;
+    font-size: 24px;
+}
+.hero-text h1 {
+    color:#f9fAf8;
+    font-size: 48px;
+    
+    
+}
+
+.hero-image {
+    flex: 1;
+    margin-right: 20px;
+    
+}
+.hero-image img{
+    width:100%;
+    
+}
+.information {
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.info-card {
+    flex: 1;
+    padding: 0px;
+    
+}
+.info-card p{
+    margin:25px
+}
+.info-card img {
+    width:100px;
+    border: 4px #3882f6 solid;
+    border-radius: 25px;;
+}
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border: red 2px solid;
+    background-color: #e5e7eb;
+}
+.testimonial blockquote {
+    text-align: center;
+    max-width: 800px;
+    width: 800px;
+    border: red 2px solid;
+}
+.testimonial p {
+    font-size: 36px;
+    font-style: italic ;
+    color:#1F2937;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px 0;
+    border: red 2px solid;
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin: 0px;
+    display: flex;
+}
+.call-to-action button {
+    background-color: #3882f6;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 10px;
+    color: #e5e7eb;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bold;
+}
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 2px red solid;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: red 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

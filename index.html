@@ -1,127 +1,80 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
-    <div id="page">
-<p>PAGE CONTENTS:</p>
-<br>
-<p>MAIN DIV = page. A flex column div, Parent to 6 child containers, displaying the page content on the vertical axis</p>
-<div id="page-container-1" class="page-container">
-
-
-<p>Container 1 content: Flex Row. Parent to 2 divs. Child div 1 contains a header logo, Child div 2 is a flex row containing three links.</A></p>
-
-
-
-</div>
-<div id="page-container-2" class="page-container">
-
-
-
-    <p>Container 2 content: Flex Row. Parent to 2 divs. Child div 1 is a flex column div with text content and a button. Child div 2 is a container for an image</p>
-
-
-
-</div>
-<div id="page-container-3" class="page-container">
-
-
-
-
-    <p>Container 3 content: Flex Column. Parent to 2 divs. Child div 1 contains a text header. Child div 2 is Parent to 
-        a Flex Row div 4 cells with an image and text below.
-    </p>
-
-
-
-</div>
-<div id="page-container-4" class="page-container">
-
-
-
-
-    <p>Container 4 content: Flex Column. Parent to 2 divs. Child div 1 contains paragraph quote. Child div 2 contains the 
-        quote author.
-    </p>
-
-
-
-</div>
-<div id="page-container-5" class="page-container">
-
-
-
-
-    <p>Container 5 content: Parent to a flex row div containing call to action text 
-        and a button
-    </p>
-
-
-</div>
-<div id="page-container-6" class="page-container">
-
-    <p>Container 6 content: Centred Copyright, and presently the link to reference design below:</p>
-<a id="assignment-link" href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png">This page is a HTML/CSS training exercise to duplicate a landing page - click to see original reference</a>
-
-
-</div>
-
-
-
- 
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="container">
+        <header>
+            <div class="header-logo">
+                <h3>Header Logo</h3>
+            </div>
+            <nav class="header-links">
+                <a href="reference.html">Reference</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Electric Scooter Lifestyle</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://www.evmotobenzinazero.com.au/images/model-range/duo/banner.jpg" alt="Placeholder image">
+            </div>
+        </section>
+        
+        <section class="information">
+            <h2>Some random information.</h2>
+            <div class="info-cards">
+                <!-- Repeat for other cards -->
+                <div class="info-card">
+                    <img src="https://shop.benzinazero.com/cdn/shop/files/duosquare.gif?v=1715561536&width=713" alt="Cost saving electric scooter for commuting, benzina zero duo" alt="Illustration">
+                    <p>This is some subtext under an illustration or image.</p>
+                </div>
+                <div class="info-card">
+                    <img src="https://shop.benzinazero.com/cdn/shop/files/duosquare.gif?v=1715561536&width=713" alt="Cost saving electric scooter for commuting, benzina zero duo" alt="Illustration">
+                    <p>This is some subtext under an illustration or image.</p>
+                </div>
+                <div class="info-card">
+                    <img src="https://shop.benzinazero.com/cdn/shop/files/duosquare.gif?v=1715561536&width=713" alt="Cost saving electric scooter for commuting, benzina zero duo" alt="Illustration">
+                    <p>This is some subtext under an illustration or image.</p>
+                </div>
+                <div class="info-card">
+                    <img src="https://shop.benzinazero.com/cdn/shop/files/duosquare.gif?v=1715561536&width=713" alt="Cost saving electric scooter for commuting, benzina zero duo" alt="Illustration">
+                    <p>This is some subtext under an illustration or image.</p>
+                </div>
+                <div class="info-card">
+                    <img src="https://shop.benzinazero.com/cdn/shop/files/duosquare.gif?v=1715561536&width=713" alt="Cost saving electric scooter for commuting, benzina zero duo" alt="Illustration">
+                    <p>This is some subtext under an illustration or image.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonial">
+            <blockquote>
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <cite>– Thor, God of Thunder</cite>
+            </blockquote>
+        </section>
+        
+        <section class="call-to-action">
+            <section class="call-to-action-text">
+            <h3>Call to action! It's time!</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
+            </section>
+            <button>Sign up</button>
+        </section>
+        
+        <footer>
+            <p>© The Odin Project 2021</p>
+        </footer>
+    </div>
 </body>
-
-
 </html>
